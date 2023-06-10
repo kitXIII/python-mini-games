@@ -8,3 +8,7 @@ __pycache__/
 *.env
 .poetry/
 __pypackages__/
+dist/
+.coverage
+coverage.xml
+.pytest_cache/
