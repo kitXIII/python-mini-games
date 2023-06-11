@@ -7,7 +7,11 @@ def run_game(explanation, steps):
     print(explanation)
 
     for (question, expected) in steps:
-        answer = prompt.string(f'Question: {question}\nYour answer: ')
+        answer = prompt.string(
+            f'Question: {question}\nYour answer: ', empty=True)
+
+        if answer is None:
+            answer = 'Empty answer'
 
         if (answer != expected):
             print("'{0}' is wrong answer ;(. "

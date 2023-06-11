@@ -25,3 +25,15 @@ The user must answer whether given number is even or not?
 
 
 **Command to start the game:**  `$ brain-even`
+
+![](https://kitxiii.github.io/media/gif/even.gif)
+
+
+## Calculator
+
+The user must enter the result of the mathematical expression.
+
+
+**Command to start the game:**  `$ brain-calc`
+
+![](https://kitxiii.github.io/media/gif/calc.gif)

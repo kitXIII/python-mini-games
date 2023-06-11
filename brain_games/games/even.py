@@ -8,7 +8,7 @@ max = 99
 
 def get_steps(count=3):
     steps = []
-    for i in range(count):
+    for _ in range(count):
         random_number = random.randint(min, max)
         question = str(random_number)
         expected = 'yes' if random_number % 2 == 0 else 'no'
