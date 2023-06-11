@@ -2,13 +2,13 @@ import random
 import math
 from brain_games.runner import run_game
 
-min = 1
-max = 99
+MIN = 1
+MAX = 99
 
 
 def get_step_data():
-    num1 = random.randint(min, max)
-    num2 = random.randint(min, max)
+    num1 = random.randint(MIN, MAX)
+    num2 = random.randint(MIN, MAX)
 
     return (f"{num1} {num2}", str(math.gcd(num1, num2)))
 

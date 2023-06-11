@@ -4,6 +4,13 @@
 
 # Console logical mini-games brain-games
 
+
+## Requirements
+
+* Python >= 3.10
+* Poetry
+* make
+
 ## Installation
 
 ### To install

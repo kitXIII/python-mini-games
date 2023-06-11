@@ -1,12 +1,12 @@
 import random
 from brain_games.runner import run_game
 
-min = 1
-max = 99
+MIN = 1
+MAX = 99
 
 
 def get_step_data():
-    random_number = random.randint(min, max)
+    random_number = random.randint(MIN, MAX)
     question = str(random_number)
     expected = 'yes' if random_number % 2 == 0 else 'no'
 

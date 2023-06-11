@@ -1,18 +1,18 @@
 import random
 from brain_games.runner import run_game
 
-min_start = 1
-max_start = 50
-min_delta = 2
-max_delta = 10
-min_members_count = 5
-max_members_count = 10
+MIN_START = 1
+MAX_START = 50
+MIN_DELTA = 2
+MAX_DELTA = 10
+MIN_MEMBERS_COUNT = 5
+MAX_MEMBERS_COUNT = 10
 
 
 def get_step_data():
-    start = random.randint(min_start, max_start)
-    delta = random.randint(min_delta, max_delta)
-    members_count = random.randint(min_members_count, max_members_count)
+    start = random.randint(MIN_START, MAX_START)
+    delta = random.randint(MIN_DELTA, MAX_DELTA)
+    members_count = random.randint(MIN_MEMBERS_COUNT, MAX_MEMBERS_COUNT)
 
     members = []
 

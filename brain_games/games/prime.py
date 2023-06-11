@@ -1,8 +1,8 @@
 import random
 from brain_games.runner import run_game
 
-min = 1
-max = 99
+MIN = 1
+MAX = 99
 
 
 def is_prime(number):
@@ -22,7 +22,7 @@ def is_prime(number):
 
 
 def get_step_data():
-    num = random.randint(min, max)
+    num = random.randint(MIN, MAX)
     expected = 'yes' if is_prime(num) else 'no'
 
     return (str(num), expected)
