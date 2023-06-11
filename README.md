@@ -48,3 +48,13 @@ The user must calculate and enter the greatest common divisor of two numbers
 
 ![](https://kitxiii.github.io/media/gif/gcd.gif)
 
+
+## Arithmetic progression
+
+The user must enter the missing part of the sequence of numbers, which is an arithmetic progression.
+
+
+**Command to start the game:**  `$ brain-progression`
+
+![](https://kitxiii.github.io/media/gif/progression.gif)
+
