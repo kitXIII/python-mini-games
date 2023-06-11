@@ -58,3 +58,12 @@ The user must enter the missing part of the sequence of numbers, which is an ari
 
 ![](https://kitxiii.github.io/media/gif/progression.gif)
 
+
+## Prime number
+
+The user must answer whether given number is prime or not?
+
+
+**Command to start the game:**  `$ brain-prime`
+
+![](https://kitxiii.github.io/media/gif/prime.gif)
