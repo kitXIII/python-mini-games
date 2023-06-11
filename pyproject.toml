@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "hexlet-code"
-version = "0.5.0"
+version = "0.5.1"
 description = "Console logical mini-games brain-games"
 authors = ["Nikita Konovalov <mipo4t@gmail.com>"]
 readme = "README.md"
