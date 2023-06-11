@@ -7,12 +7,8 @@ min = 1
 max = 99
 
 
-def get_steps(count=3):
-    steps = []
-    for _ in range(count):
-        num1 = random.randint(min, max)
-        num2 = random.randint(min, max)
+def get_step_data():
+    num1 = random.randint(min, max)
+    num2 = random.randint(min, max)
 
-        steps.append((f"{num1} {num2}", str(math.gcd(num1, num2))))
-
-    return steps
+    return (f"{num1} {num2}", str(math.gcd(num1, num2)))
