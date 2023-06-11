@@ -1,7 +1,6 @@
 import random
+from brain_games.runner import run_game
 
-
-EXPLANATION = 'What is the result of the expression?'
 min = 1
 max = 99
 
@@ -19,3 +18,7 @@ def get_step_data():
             return (f"{num1} - {num2}", str(num1 - num2))
         case 2:
             return (f"{num1} * {num2}", str(num1 * num2))
+
+
+def run():
+    run_game('What is the result of the expression?', get_step_data)

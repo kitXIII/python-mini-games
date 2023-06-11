@@ -1,7 +1,6 @@
 import random
+from brain_games.runner import run_game
 
-
-EXPLANATION = 'Answer "yes" if the number is even, otherwise answer "no".'
 min = 1
 max = 99
 
@@ -12,3 +11,10 @@ def get_step_data():
     expected = 'yes' if random_number % 2 == 0 else 'no'
 
     return (question, expected)
+
+
+def run():
+    run_game(
+        'Answer "yes" if the number is even, otherwise answer "no".',
+        get_step_data
+    )
