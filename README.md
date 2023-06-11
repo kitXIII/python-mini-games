@@ -37,3 +37,14 @@ The user must enter the result of the mathematical expression.
 **Command to start the game:**  `$ brain-calc`
 
 ![](https://kitxiii.github.io/media/gif/calc.gif)
+
+
+## Greatest common divisor
+
+The user must calculate and enter the greatest common divisor of two numbers
+
+
+**Command to start the game:**  `$ brain-gcd`
+
+![](https://kitxiii.github.io/media/gif/gcd.gif)
+
